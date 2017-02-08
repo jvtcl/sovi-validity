@@ -22,7 +22,7 @@ pd.set_option("chained_assignment", None)
 
 path = os.getcwd()
 # path = os.path.dirname(os.getcwd()) # if running from the 'code' directory
-outPath=os.path.join(path,'data')
+# outPath=os.path.join(path,'data')
 ipath = os.path.join(path,'data','input')
 spath = os.path.join(path,'data','spatial')
 

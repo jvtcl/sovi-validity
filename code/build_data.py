@@ -46,6 +46,7 @@ parent = os.path.dirname(os.getcwd()) # parent directory
 path = os.path.join(parent,'data/input')
 # spath = "/Users/Seth/Dropbox/SoVI_var_wise_paper/data/spatial"
 spath = os.path.join(parent,'data/spatial')
+print(path)
 
 make_strings = {'Geo_FIPS': object, 'Geo_STATE': object, 'Geo_COUNTY': object,
                 'Geo_TRACT': object, 'Geo_CBSA': object, 'Geo_CSA': object}
